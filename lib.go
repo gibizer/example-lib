@@ -1,7 +1,7 @@
-package example-lib
+package example
 
 import "fmt"
 
-func Hello(msg: str) {
+func Hello(msg string) {
         fmt.Println("lib: " + msg)
 }
